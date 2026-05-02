@@ -1,92 +1,62 @@
 # Academic Portfolio Template
 
-A simple, clean academic portfolio website for students to showcase essays, lab reports, and coursework.
+A lightweight, accessible multi-page academic portfolio built with plain HTML and CSS.
 
-Built using HTML and CSS, with support for GitHub Pages and custom domains.
+## What’s included
 
----
-
-## Features
-
-- Multi-page academic portfolio
-- Clean, responsive design
-- PDF embedding for essays and reports
-- SEO-ready (meta tags, sitemap, robots.txt)
+- Home page with profile, interests, and featured work
+- Work index page linking to project/case-study pages
+- CV page
+- Contact page
 - Custom 404 page
-- Easy to customise
+- `sitemap.xml` and `robots.txt` for discoverability
 
----
+## Accessibility and UX defaults
 
-## How to Use
+- Semantic page structure (`header`, `main`, `section`, `footer`)
+- Consistent primary navigation across all pages
+- Descriptive link labels (e.g., **Work**, **CV**, **Contact**)
+- Mobile-friendly layout via responsive CSS
 
-### 1. Replace placeholder content
+## Quick start
 
-Search and replace:
+1. Clone this repository.
+2. Open `index.html` in your browser to preview.
+3. Replace placeholder text and links with your own details.
+4. Deploy to GitHub Pages, Netlify, or any static host.
 
-- Your Name
-- Your Job Title
-- Your Institution
-- Year
-- Example1 / Example2
-- yourfullname@example.com
-- yourlinkedinurl
-- https://example.com
+## Customization checklist
 
----
+Update these placeholders across the site:
 
-### 2. Add your work
+- `Your Name`
+- `Your Job Title`
+- `Your Institution`
+- `Year`
+- `yourfullname@example.com`
+- `yourlinkedinurl`
+- `https://example.com`
 
-For each project:
+Then update project content:
 
-1. Duplicate a folder like `example-1/`
-2. Rename it (e.g. `nitrate-analysis/`)
-3. Update the HTML content
-4. Add your files:
-your-project/
-index.html
-your-project.pdf
-preview.png
+- `example-1/` → your first project slug
+- `example-2/` → your second project slug
+- Project titles and summaries in `index.html` and `work/index.html`
 
----
+## Navigation conventions used
 
-### 3. Update navigation
+To avoid broken links on static hosting, navigation uses relative links:
 
-Edit links in:
-- homepage (`index.html`)
-- `/work/` page
+- From root pages: `./`, `work/`, `cv/`, `contact/`
+- From subpages: `../`, `../work/`, `../cv/`, `../contact/`
 
----
+If you add new folders, follow the same pattern.
 
-### 4. Add your domain (optional)
+## Deployment notes
 
-If using GitHub Pages:
-- remove `CNAME` if present
-- connect your own domain in repo settings
-
----
-
-### 5. Update sitemap
-
-Edit `sitemap.xml` to include your pages:
-https://example.com/sitemap.xml
-
----
-
-## Deployment
-
-Works with:
-- GitHub Pages
-- Netlify
-- Any static hosting
-
----
-
-## Notes
-
-- PDF and image files are not included — add your own
-- Open Graph preview uses `favicon.png` by default
-
----
+- Keep file and folder names lowercase with hyphens (example: `climate-risk-analysis/`).
+- Ensure each project folder has an `index.html`.
+- Update `sitemap.xml` after adding or renaming pages.
 
 ## License
 
