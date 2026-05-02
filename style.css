@@ -1,12 +1,12 @@
 :root {
-  --background: #f7f1e8;
-  --paper: #fffdf8;
-  --text: #1f1b17;
-  --muted: #6f6256;
-  --accent: #7b2d26;
-  --ochre: #b9822f;
-  --border: #d8c7b4;
-  --band: #ead7c7;
+  --background: #eef2e8;
+  --paper: #fbfcf7;
+  --text: #172018;
+  --muted: #5f6b5c;
+  --accent: #244d3b;
+  --ochre: #8a6f2a;
+  --border: #c7d0bc;
+  --band: #d6e0cf;
 }
 
 body {
@@ -25,7 +25,7 @@ header {
   padding: 56px 24px 32px;
   border-bottom: 1px solid var(--border);
   background: var(--band);
-  border-radius: 0 0 16px 16px;
+  border-radius: 0;
 }
 
 header h1 {
@@ -129,7 +129,7 @@ main a:hover {
 .card {
   background: var(--paper);
   border: 1px solid var(--border);
-  border-radius: 14px;
+  border-radius: 8px;
   padding: 22px;
   margin-bottom: 18px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -300,13 +300,13 @@ main a:hover {
 .button-link {
   display: inline-block;
   margin-top: 1rem;
-  padding: 10px 16px;
+  padding: 9px 15px;
   background: var(--accent);
   color: white;
   text-decoration: none;
   font-weight: 600;
   font-size: 0.95rem;
-  border-radius: 999px;
+  border-radius: 6px;
   transition: background 0.2s ease, transform 0.1s ease;
 }
 
@@ -437,14 +437,6 @@ footer a:hover {
   .paper-header h2 {
     font-size: 1.5rem;
   }
-}
-
-.ascii-art {
-  text-align: center;
-  margin-top: 20px;
-  font-family: monospace;
-  color: var(--muted);
-  opacity: 0.8;
 }
 
 .ascii-art {
