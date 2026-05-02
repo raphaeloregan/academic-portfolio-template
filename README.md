@@ -9,3 +9,4 @@ A simple static academic portfolio for students to showcase essays, lab reports,
 3. Add your own work pages.
 4. Replace PDFs and preview images.
 5. Update `sitemap.xml` if using a custom domain.
+6. Upload a favicon as a file under the name favicon.png
